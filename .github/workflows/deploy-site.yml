@@ -1,0 +1,25 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "carreira.yaml"
+      - "scripts/render_html.py"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - run: python3 scripts/render_html.py carreira.yaml dist/index.html
+      - name: Publica no Cloudflare Pages
+        run: npx wrangler@latest pages deploy dist --project-name=carreira --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
