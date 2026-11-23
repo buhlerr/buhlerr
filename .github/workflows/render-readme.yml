@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pyyaml
-      - run: python scripts/render.py carreira.yaml README.md
+      - run: python scripts/render.py carreira.yaml README.md readme
       - name: Commit se mudou
         run: |
           git config user.name "openbotgit[bot]"
