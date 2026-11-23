@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pyyaml
-      - run: python3 scripts/render_html.py carreira.yaml dist/index.html
+      - run: python3 scripts/render_bento.py carreira.yaml c dist/index.html
       - name: Publica no Cloudflare Pages
         run: npx wrangler@latest pages deploy dist --project-name=carreira --branch=main
         env:
