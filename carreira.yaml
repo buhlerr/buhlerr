@@ -12,7 +12,7 @@ pessoa:
   dominio: rauvbr.com           # você escolheu a raiz para a página de carreira
   titulo: Desenvolvedor de Dados & IA Aplicada | Python · SQL · Power BI · LLMs | Certificado ANCORD (CVM)   # proposta; ajuste
   resumo: >-
-    Desenvolve automações e soluções de dados e IA para problemas reais de operações: Python
+    Desenvolve automações e soluções de dados e IA para problemas de operações: Python
     (Pandas, Playwright), SQL/PostgreSQL, Power BI, n8n e LLMs com RAG. Veio das operações e do
     backoffice financeiro — entende o processo que automatiza. Pós-graduando em Ciência de
     Dados, BI e IA no Senac RS.
@@ -24,19 +24,19 @@ experiencia:
     fim: null                  # atual
     local: Porto Alegre, RS
     destaques:
-      - Concebeu e implementou o CRM Checklist Andubai, sistema web de pós-venda com filas Kanban; conferência de dados de minutos para segundos.
-      - Painel operacional em Google Sheets para 5 consultores, com tempos de espera, gargalos e SLAs em tempo real.
-      - Carteira de 400 a 600 clientes ativos em pós-venda; menor índice de cancelamento (churn) da empresa no 1º semestre de 2026.
+      - Concebeu e implementou o CRM Checklist Andubai, sistema web de pós-venda com filas Kanban. A conferência de dados caiu de minutos para segundos.
+      - Criou um painel operacional em Google Sheets para 5 consultores, com tempos de espera, gargalos e SLAs em tempo real.
+      - Atende uma carteira de 400 a 600 clientes ativos em pós-venda. Teve o menor índice de cancelamento (churn) da empresa no 1º semestre de 2026.
   - empresa: Argentum Investimentos
     cargo: Head de Back Office
     inicio: 2022-05
     fim: 2025-02
     local: Porto Alegre, RS
     destaques:
-      - Estruturou e liderou o suporte interno para 250+ assessores comerciais e 12 sócios, centralizando solicitações num fluxo único.
+      - Estruturou e liderou o suporte interno para 250+ assessores comerciais e 12 sócios, centralizando as solicitações num fluxo único.
       - Parametrizou o Pipefy e liderou a migração para o Zendesk, com formulários, roteamento e SLAs internos.
-      - Capacitação do time comercial; demandas de custódia, contas PJ e rotinas societárias.
-      - Relatórios gerenciais de captação líquida, receita da base e NPS para a diretoria.
+      - Capacitou o time comercial; cuidou de demandas de custódia, contas PJ e rotinas societárias.
+      - Produziu relatórios gerenciais de captação líquida, receita da base e NPS para a diretoria.
 
 formacao:
   - instituicao: Senac RS
@@ -81,7 +81,7 @@ projetos:
   - data: 2025-05
     titulo: CRM Checklist Pós-Venda (Andubai)
     papel: Arquiteto de soluções operacionais
-    resumo: Sistema corporativo de pós-venda para uma esteira de 400–600 alunos, com filas de atendimento, controle do pré-embarque e conferência automatizada de dados; login individual, rate-limit e painel admin.
+    resumo: sistema de pós-venda para uma esteira de 400–600 alunos, com filas de atendimento, controle do pré-embarque e conferência automatizada de dados; login individual, rate-limit e painel admin.
     skills: [Python, HTML/CSS, Docker]
     links: [https://github.com/buhlerr/crm_andubai, https://crm-andubai.vercel.app]
     status: publico           # você reabriu a inclusão; repo e demo já são públicos no seu GitHub
@@ -90,7 +90,7 @@ projetos:
   - data: 2026-11
     titulo: LEIA KB — base normativa do LEIA
     papel: Extração e curadoria de dados
-    resumo: "Base normativa que alimenta o LEIA: extração automatizada de normas do Planalto e súmulas do STJ em Python, curadoria de jurisprudência, matriz de riscos e validação de cobertura (CDC, Código Civil, Lei de Locações 8.245/1991, Lei 8.009/1990)."
+    resumo: "base normativa que alimenta o LEIA. Extrai normas do Planalto e súmulas do STJ com Python, e inclui curadoria de jurisprudência, matriz de riscos e validação de cobertura (CDC, Código Civil, Lei de Locações 8.245/1991, Lei 8.009/1990)."
     skills: [Python, extração de dados, RAG, curadoria de dados]
     links: [https://github.com/buhlerr/leia-kb-legislacao]
     status: publico           # você liberou; repo já é público
